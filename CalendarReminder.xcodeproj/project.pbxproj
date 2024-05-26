@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A66CC02B6C9F5C008CBFD8 /* GoogleCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A66CBF2B6C9F5C008CBFD8 /* GoogleCalendar.m */; };
+		17B4EDDB2B6F8EF000A701C8 /* CSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B4EDD92B6F8EF000A701C8 /* CSettings.m */; };
+		17B4EDDC2B6F8EF000A701C8 /* CSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B4EDDA2B6F8EF000A701C8 /* CSettings.xib */; };
+		17C6C3CE2B67920200369603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C6C3CD2B67920200369603 /* AppDelegate.m */; };
+		17C6C3D12B67920200369603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C6C3D02B67920200369603 /* ViewController.m */; };
+		17C6C3D32B67920300369603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C6C3D22B67920300369603 /* Assets.xcassets */; };
+		17C6C3D62B67920300369603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C6C3D42B67920300369603 /* Main.storyboard */; };
+		17C6C3D82B67920300369603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C6C3D72B67920300369603 /* main.m */; };
+		17FE656D2B6D347B00BFA5AA /* MacCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FE656C2B6D347B00BFA5AA /* MacCalendar.m */; };
+		D2A70DDD49B5916BEAC18429 /* Pods_CalendarReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9158490C9BB7F187640B07 /* Pods_CalendarReminder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D7091392EDB2705056BCAD2 /* Pods-CalendarReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarReminder.debug.xcconfig"; path = "Target Support Files/Pods-CalendarReminder/Pods-CalendarReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		17A66CBF2B6C9F5C008CBFD8 /* GoogleCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleCalendar.m; sourceTree = "<group>"; };
+		17A66CC12B6C9F78008CBFD8 /* GoogleCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleCalendar.h; sourceTree = "<group>"; };
+		17B4EDD82B6F8EF000A701C8 /* CSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSettings.h; sourceTree = "<group>"; };
+		17B4EDD92B6F8EF000A701C8 /* CSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSettings.m; sourceTree = "<group>"; };
+		17B4EDDA2B6F8EF000A701C8 /* CSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSettings.xib; sourceTree = "<group>"; };
+		17C6C3C92B67920200369603 /* CalendarReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C6C3CC2B67920200369603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17C6C3CD2B67920200369603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17C6C3CF2B67920200369603 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17C6C3D02B67920200369603 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17C6C3D22B67920300369603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C6C3D52B67920300369603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C6C3D72B67920300369603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C6C3D92B67920300369603 /* CalendarReminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalendarReminder.entitlements; sourceTree = "<group>"; };
+		17FE656C2B6D347B00BFA5AA /* MacCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacCalendar.m; sourceTree = "<group>"; };
+		17FE656E2B6D348700BFA5AA /* MacCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacCalendar.h; sourceTree = "<group>"; };
+		17FE656F2B6D392B00BFA5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E60108D22E63B9D407F871 /* Pods-CalendarReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarReminder.release.xcconfig"; path = "Target Support Files/Pods-CalendarReminder/Pods-CalendarReminder.release.xcconfig"; sourceTree = "<group>"; };
+		CF9158490C9BB7F187640B07 /* Pods_CalendarReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C6C3C62B67920200369603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A70DDD49B5916BEAC18429 /* Pods_CalendarReminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C6C3C02B67920100369603 = {
+			isa = PBXGroup;
+			children = (
+				17C6C3CB2B67920200369603 /* CalendarReminder */,
+				17C6C3CA2B67920200369603 /* Products */,
+				2F70D1F8F87F4C0236EED628 /* Pods */,
+				B68C21212020E50D369E6A68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17C6C3CA2B67920200369603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C6C3C92B67920200369603 /* CalendarReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C6C3CB2B67920200369603 /* CalendarReminder */ = {
+			isa = PBXGroup;
+			children = (
+				17FE656F2B6D392B00BFA5AA /* Info.plist */,
+				17C6C3CC2B67920200369603 /* AppDelegate.h */,
+				17C6C3CD2B67920200369603 /* AppDelegate.m */,
+				17FE656C2B6D347B00BFA5AA /* MacCalendar.m */,
+				17FE656E2B6D348700BFA5AA /* MacCalendar.h */,
+				17A66CC12B6C9F78008CBFD8 /* GoogleCalendar.h */,
+				17A66CBF2B6C9F5C008CBFD8 /* GoogleCalendar.m */,
+				17C6C3CF2B67920200369603 /* ViewController.h */,
+				17C6C3D02B67920200369603 /* ViewController.m */,
+				17C6C3D22B67920300369603 /* Assets.xcassets */,
+				17C6C3D42B67920300369603 /* Main.storyboard */,
+				17C6C3D72B67920300369603 /* main.m */,
+				17C6C3D92B67920300369603 /* CalendarReminder.entitlements */,
+				17B4EDD82B6F8EF000A701C8 /* CSettings.h */,
+				17B4EDD92B6F8EF000A701C8 /* CSettings.m */,
+				17B4EDDA2B6F8EF000A701C8 /* CSettings.xib */,
+			);
+			path = CalendarReminder;
+			sourceTree = "<group>";
+		};
+		2F70D1F8F87F4C0236EED628 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D7091392EDB2705056BCAD2 /* Pods-CalendarReminder.debug.xcconfig */,
+				70E60108D22E63B9D407F871 /* Pods-CalendarReminder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B68C21212020E50D369E6A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF9158490C9BB7F187640B07 /* Pods_CalendarReminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C6C3C82B67920200369603 /* CalendarReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C6C3DC2B67920300369603 /* Build configuration list for PBXNativeTarget "CalendarReminder" */;
+			buildPhases = (
+				CC4CE578A3F24FAAEAA4C9C0 /* [CP] Check Pods Manifest.lock */,
+				17C6C3C52B67920200369603 /* Sources */,
+				17C6C3C62B67920200369603 /* Frameworks */,
+				17C6C3C72B67920200369603 /* Resources */,
+				3D608230059A8ACD69346BB6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarReminder;
+			productName = CalendarReminder;
+			productReference = 17C6C3C92B67920200369603 /* CalendarReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C6C3C12B67920100369603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					17C6C3C82B67920200369603 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 17C6C3C42B67920100369603 /* Build configuration list for PBXProject "CalendarReminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C6C3C02B67920100369603;
+			productRefGroup = 17C6C3CA2B67920200369603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C6C3C82B67920200369603 /* CalendarReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C6C3C72B67920200369603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C6C3D32B67920300369603 /* Assets.xcassets in Resources */,
+				17B4EDDC2B6F8EF000A701C8 /* CSettings.xib in Resources */,
+				17C6C3D62B67920300369603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D608230059A8ACD69346BB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendarReminder/Pods-CalendarReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendarReminder/Pods-CalendarReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalendarReminder/Pods-CalendarReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4CE578A3F24FAAEAA4C9C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendarReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C6C3C52B67920200369603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B4EDDB2B6F8EF000A701C8 /* CSettings.m in Sources */,
+				17C6C3D12B67920200369603 /* ViewController.m in Sources */,
+				17C6C3D82B67920300369603 /* main.m in Sources */,
+				17FE656D2B6D347B00BFA5AA /* MacCalendar.m in Sources */,
+				17A66CC02B6C9F5C008CBFD8 /* GoogleCalendar.m in Sources */,
+				17C6C3CE2B67920200369603 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17C6C3D42B67920300369603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C6C3D52B67920300369603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C6C3DA2B67920300369603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17C6C3DB2B67920300369603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17C6C3DD2B67920300369603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7091392EDB2705056BCAD2 /* Pods-CalendarReminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CalendarReminder/CalendarReminder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZDCB4C2QG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarReminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AiCalendarReminder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damons.valdrada.CalendarReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		17C6C3DE2B67920300369603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E60108D22E63B9D407F871 /* Pods-CalendarReminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CalendarReminder/CalendarReminder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZDCB4C2QG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarReminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AiCalendarReminder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damons.valdrada.CalendarReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C6C3C42B67920100369603 /* Build configuration list for PBXProject "CalendarReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C6C3DA2B67920300369603 /* Debug */,
+				17C6C3DB2B67920300369603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C6C3DC2B67920300369603 /* Build configuration list for PBXNativeTarget "CalendarReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C6C3DD2B67920300369603 /* Debug */,
+				17C6C3DE2B67920300369603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C6C3C12B67920100369603 /* Project object */;
+}
